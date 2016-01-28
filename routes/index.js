@@ -5,6 +5,10 @@
 
 exports.view = function(req, res){
   res.render('index', {
+  	'jumbotron':
+  	  { 'name': 'Joel Rosenthal',
+  		'description': 'human-computer interaction • social computing • crowdsourcing'
+  	  },
     'projects': [
       { 'name': 'Waiting in Line',
         'image': 'lorempixel.people.1.jpeg',
